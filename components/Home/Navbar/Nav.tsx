@@ -48,9 +48,9 @@ const Nav = ({ openNav }: Props) => {
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((navLink) => {
               return (
-                <Link key={navLink.id} href={navLink.url}>
+                <a key={navLink.id} href={navLink.url}>
                   <p className="nav__link">{navLink.label}</p>
-                </Link>
+                </a>
               );
             })}
           </div>

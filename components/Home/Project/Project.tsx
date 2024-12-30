@@ -3,9 +3,9 @@ import { projectData } from "@/Data/data";
 import Image from "next/image";
 import Link from "next/link";
 
-const Project = () => {
+const Project = ({ id }: { id: string }) => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div id={id} className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>My Projects</SectionHeading>
       <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
         {projectData.map((project, index) => {

@@ -12,6 +12,7 @@ import ScrolltoTop from "../Helper/ScrolltoTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 const Home = () => {
   useEffect(() => {
     const initAOS = async () => {
@@ -25,16 +26,17 @@ const Home = () => {
     };
     initAOS();
   }, []);
+
   return (
     <div className="overflow-hidden">
-      <Hero />
-      <About />
-      <Services />
-      <Project />
-      <Skills />
-      <Education />
-      <Blog />
-      <Contact />
+      <Hero id="hero" />
+      <About id="about" />
+      <Services id="services" />
+      <Project id="projects" />
+      <Skills id="skills" />
+      <Education id="education" />
+      {/* <Blog id="blog" /> */}
+      <Contact id="contact" />
       <Footer />
       <ScrolltoTop />
     </div>

@@ -3,9 +3,9 @@ import { aboutInfo } from "@/Data/data";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 
-const About = () => {
+const About = ({ id }: { id: string }) => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div id={id} className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>Experience</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* Text Content */}
@@ -56,7 +56,6 @@ const About = () => {
               <li className="text-gray-300">Tailwind CSS</li>
               <li className="text-gray-300">Express.js</li>
               <li className="text-gray-300">Git</li>
-              <li className="text-gray-300">Docker</li>
             </ul>
           </div>
 
@@ -67,16 +66,13 @@ const About = () => {
             </h3>
             <ul className="mt-4 text-gray-300">
               <li className="mb-2">
-                1. <strong>Swiggy Clone:</strong> Developed a food delivery web
-                app using React and Node.js
+                1. <strong>Jiffy Eats:</strong> Developed a food delivery web
+                app using React and tailwind CSS{" "}
               </li>
               <li className="mb-2">
-                2. <strong>E-commerce Website:</strong> Built a fully responsive
-                e-commerce site with MongoDB integration
-              </li>
-              <li className="mb-2">
-                3. <strong>Real-time Chat Application:</strong> Implemented a
-                chat app with socket.io for real-time communication
+                2. <strong>Student Tinder:</strong> Built a fully responsive
+                website for a student tinder with MongoDB integration where
+                users can connect with other students made with React and NodeJs
               </li>
             </ul>
           </div>

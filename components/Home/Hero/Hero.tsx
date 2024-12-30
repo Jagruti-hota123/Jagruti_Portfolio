@@ -1,10 +1,14 @@
 import { BaseInfo } from "@/Data/data";
 import Image from "next/image";
+import Link from "next/link";
 import { FaDownload } from "react-icons/fa";
 
-const Hero = () => {
+const Hero = ({ id }: { id: string }) => {
   return (
-    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative">
+    <div
+      id={id}
+      className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative"
+    >
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full items-center gap-12">
           {/* Text Content */}
@@ -33,20 +37,25 @@ const Hero = () => {
               {BaseInfo.description}
             </p>
             {/* Button */}
-            <div
-              data-aos="zoom-in"
-              data-aos-delays="300"
-              className="flex items-center gap-5 mt-5"
-            >
-              <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex ic space-x-2">
-                <span>Download CV</span>
-                <FaDownload />
-              </button>
-            </div>
+            <a href="Jagruti_Hota_CV.pdf" target="_blank">
+              <div
+                data-aos="zoom-in"
+                data-aos-delays="300"
+                className="flex items-center gap-5 mt-5"
+              >
+                <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex ic space-x-2">
+                  <span>Download CV</span>
+                  <FaDownload />
+                </button>
+              </div>
+            </a>
           </div>
           {/* Image Content */}
-          <div  data-aos="zoom-in"
-              data-aos-delays="400" className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden">
+          <div
+            data-aos="zoom-in"
+            data-aos-delays="400"
+            className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden"
+          >
             <Image
               src={BaseInfo.profilePic}
               alt="profile"
