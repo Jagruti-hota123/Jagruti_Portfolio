@@ -21,7 +21,9 @@ const ServiceCard = ({ service }: Props) => {
         width={50}
         height={50}
       />
-      <h1 className="mt-4 text-lg font-bold text-gray-100">{service.title}</h1>
+      <h1 className="mt-4 text-base font-bold text-gray-100">
+        {service.title}
+      </h1>
       <p className="mt-3 text-sm text-white text-opacity-80">
         {service.description}
       </p>

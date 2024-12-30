@@ -6,11 +6,11 @@ import { FaCheck } from "react-icons/fa";
 const About = () => {
   return (
     <div className="pt-16 pb-16 bg-[#050709]">
-      <SectionHeading>About Me</SectionHeading>
+      <SectionHeading>Experience</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* Text Content */}
-        <div>
-          <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold  text-gray-200 ">
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
+          <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
           <p className="mt-6 text-base text-gray-500">
@@ -42,26 +42,53 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
-        {/* Stats Content */}
-        <div className="grid grid-cols-2 gap-16 items-center lg:mx-auto">
-          {/* 1st Stat */}
-          <div>
-            <Image
-              src="/images/customer.png"
-              alt="about"
-              width={80}
-              height={80}
-              className="mx-auto"
-            />
-            <p className="mt-3 font-bold text-xl text-white text-center">
-              {aboutInfo.client}
-            </p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">
-              Satisfied Customers
-            </p>
+
+          {/* Additional Section for Technologies/Skills */}
+          <div className="mt-8">
+            <h3 className="text-xl font-semibold text-gray-200">
+              {`Technologies I've Worked With`}
+            </h3>
+            <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+              <li className="text-gray-300">JavaScript</li>
+              <li className="text-gray-300">ReactJS</li>
+              <li className="text-gray-300">Node.js</li>
+              <li className="text-gray-300">MongoDB</li>
+              <li className="text-gray-300">Tailwind CSS</li>
+              <li className="text-gray-300">Express.js</li>
+              <li className="text-gray-300">Git</li>
+              <li className="text-gray-300">Docker</li>
+            </ul>
           </div>
-          {/* 2nd Stat */}
+
+          {/* Add Hands-On Projects */}
+          <div className="mt-8">
+            <h3 className="text-xl font-semibold text-gray-200">
+              Notable Projects
+            </h3>
+            <ul className="mt-4 text-gray-300">
+              <li className="mb-2">
+                1. <strong>Swiggy Clone:</strong> Developed a food delivery web
+                app using React and Node.js
+              </li>
+              <li className="mb-2">
+                2. <strong>E-commerce Website:</strong> Built a fully responsive
+                e-commerce site with MongoDB integration
+              </li>
+              <li className="mb-2">
+                3. <strong>Real-time Chat Application:</strong> Implemented a
+                chat app with socket.io for real-time communication
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Stats Content */}
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="150"
+          data-aos-anchor-placement="top-center"
+          className="grid grid-cols-2 gap-16 items-center lg:mx-auto"
+        >
           <div>
             <Image
               src="/images/experience.png"
@@ -77,7 +104,6 @@ const About = () => {
               Years Experience
             </p>
           </div>
-          {/* 3rd Stat */}
           <div>
             <Image
               src="/images/completed.png"
@@ -91,22 +117,6 @@ const About = () => {
             </p>
             <p className="text-base sm:text-lg text-gray-400 text-center">
               Completed Projects
-            </p>
-          </div>
-          {/* 4th Stat */}
-          <div>
-            <Image
-              src="/images/rocket.png"
-              alt="about"
-              width={80}
-              height={80}
-              className="mx-auto"
-            />
-            <p className="mt-3 font-bold text-xl text-white text-center">
-              {aboutInfo.website}
-            </p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">
-              Website Launched
             </p>
           </div>
         </div>

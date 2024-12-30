@@ -9,10 +9,10 @@ export const BaseInfo = {
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    "As a web developer with one year of hands-on experience, I transform ideas into interactive, user-friendly websites. Specializing in JavaScript, ReactJS, and CSS, I focus on delivering tailored solutions that enhance online presence and engage users effectively.",
   client: "50+",
-  experience: "3+",
-  project: "200+",
+  experience: "1+",
+  project: "5+",
   website: "100+",
 };
 
