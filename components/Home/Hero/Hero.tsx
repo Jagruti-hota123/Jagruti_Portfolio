@@ -37,7 +37,7 @@ const Hero = ({ id }: { id: string }) => {
               {BaseInfo.description}
             </p>
             {/* Button */}
-            <a href="Jagruti_Hota_CV.pdf" target="_blank">
+            <Link target="_blank" href="Jagruti_updated_resume.pdf">
               <div
                 data-aos="zoom-in"
                 data-aos-delays="300"
@@ -48,7 +48,7 @@ const Hero = ({ id }: { id: string }) => {
                   <FaDownload />
                 </button>
               </div>
-            </a>
+            </Link>
           </div>
           {/* Image Content */}
           <div

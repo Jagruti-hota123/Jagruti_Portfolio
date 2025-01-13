@@ -90,7 +90,7 @@ export const projectData = [
   {
     id: 4,
     image: "/images/portfolio.jpg",
-    url: "https://elearning-yt.vercel.app/",
+    url: "https://jagruti-portfolio.vercel.app/",
   },
   // {
   //   id: 5,
