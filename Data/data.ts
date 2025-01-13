@@ -94,7 +94,7 @@ export const projectData = [
   },
   // {
   //   id: 5,
-  //   image: "/images/p5.png",
+  //   image: "/images/jiffyeats.png",
   //   url: "https://invest-peach.vercel.app/",
   // },
   // {
