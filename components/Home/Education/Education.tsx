@@ -1,6 +1,7 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
 import React from "react";
-import Slider from "./Slider";
+import { educationData } from "@/Data/data";
+import EduCard from "./EduCard";
 
 const Education = ({ id }: { id: string }) => {
   return (
@@ -8,7 +9,8 @@ const Education = ({ id }: { id: string }) => {
       <SectionHeading>Education</SectionHeading>
       <div className="mt-20 w-[90%] sm:w-[80%] mx-auto">
         {/* Slider */}
-        <Slider />
+
+        <EduCard />
       </div>
     </div>
   );

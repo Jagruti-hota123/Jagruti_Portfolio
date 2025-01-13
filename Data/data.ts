@@ -2,7 +2,7 @@ export const BaseInfo = {
   name: "Jagruti",
   position: "Full Stack Web Developer",
   description:
-    "Hi! I'm a passionate Full Stack Developer with a knack for building dynamic and responsive web applications. I specialize in creating seamless user experiences by bridging the gap between robust back-end systems and intuitive front-end designs. With expertise in technologies like JavaScript, React, Node.js, and MongoDB, I enjoy turning ideas into scalable and efficient solutions. Whether it's crafting APIs, managing databases, or designing interfaces, I thrive on solving complex problems and delivering impactful results.",
+    "Hi! I'm a passionate Full Stack Developer with a knack for building dynamic and responsive web applications. I specialize in creating seamless user experiences by bridging the gap between robust back-end systems and intuitive front-end designs. With expertise in technologies like JavaScript, React, Node.js, Express.js, and MongoDB, I enjoy turning ideas into scalable and efficient solutions. Whether it's crafting APIs, managing databases, or designing interfaces, I thrive on solving complex problems and delivering impactful results.",
   profilePic: "/images/hero.png",
 };
 
@@ -74,44 +74,44 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/images/p1.png",
-    url: "https://agency-opal-eight.vercel.app/",
+    image: "/images/Netflix.jpg",
+    url: "https://netflix-seven-gamma.vercel.app/",
   },
   {
     id: 2,
-    image: "/images/p2.png",
-    url: "https://burger-pearl.vercel.app/",
+    image: "/images/zysk.jpg",
+    url: "https://zysk-virid.vercel.app/",
   },
   {
     id: 3,
-    image: "/images/p3.png",
-    url: "https://game-ecommerce-yt.vercel.app/",
+    image: "/images/StudentTinder.jpg",
+    url: "https://student-tinder-web.vercel.app/login/",
   },
   {
     id: 4,
-    image: "/images/p4.png",
+    image: "/images/portfolio.jpg",
     url: "https://elearning-yt.vercel.app/",
   },
-  {
-    id: 5,
-    image: "/images/p5.png",
-    url: "https://invest-peach.vercel.app/",
-  },
-  {
-    id: 6,
-    image: "/images/p6.png",
-    url: "https://job-chi-ruby.vercel.app/",
-  },
-  {
-    id: 7,
-    image: "/images/p7.png",
-    url: "https://wdw-ecom.vercel.app/",
-  },
-  {
-    id: 8,
-    image: "/images/p8.png",
-    url: "https://webhost-ten.vercel.app/",
-  },
+  // {
+  //   id: 5,
+  //   image: "/images/p5.png",
+  //   url: "https://invest-peach.vercel.app/",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/p6.png",
+  //   url: "https://job-chi-ruby.vercel.app/",
+  // },
+  // {
+  //   id: 7,
+  //   image: "/images/p7.png",
+  //   url: "https://wdw-ecom.vercel.app/",
+  // },
+  // {
+  //   id: 8,
+  //   image: "/images/p8.png",
+  //   url: "https://webhost-ten.vercel.app/",
+  // },
 ];
 
 export const skillsData = [
@@ -185,36 +185,26 @@ export const skillsData = [
 
 export const educationData = [
   {
-    name: "John Doe",
-    review:
-      "Exceptional service! The team delivered exactly what we needed on time. Very professional",
-    rating: 5,
-    profession: "Marketing Manager",
-    image: "/images/u1.jpg",
+    id: 1,
+    year: "2019-2023",
+    degree: "B.Tech in Computer Science",
+    institute:
+      "Centurion University of Technology and Management, Bhubaneswar, Odisha",
+    description: "Graduated with a CGPA of 9.21.",
   },
   {
-    name: "Jane Smith",
-    review:
-      "Highly skilled developers who understand the client's vision and execute perfectly.",
-    rating: 4.8,
-    profession: "Business Owner",
-    image: "/images/u2.jpg",
+    id: 2,
+    year: "2017-2019",
+    degree: "12th Science",
+    institute: "Seven Hills Residential School, Sambalpur, Odisha",
+    description: "Graduated with an aggregate of 73.67%.",
   },
   {
-    name: "Michael Johnson",
-    review:
-      "Great communication and excellent results. Our new site performs beautifully.",
-    rating: 4.6,
-    profession: "Project Coordinator",
-    image: "/images/u3.jpg",
-  },
-  {
-    name: "Emily Brown",
-    review:
-      "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
-    rating: 4.9,
-    profession: "Creative Director",
-    image: "/images/u4.jpg",
+    id: 3,
+    year: "2015-2017",
+    degree: "Matriculation",
+    institute: "Jawahar Navodaya Vidyalaya, Sundergarh , Odisha",
+    description: "Graduated with an aggregate of 8.8 CGPA.",
   },
 ];
 

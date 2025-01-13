@@ -43,23 +43,7 @@ const About = ({ id }: { id: string }) => {
             </div>
           </div>
 
-          {/* Additional Section for Technologies/Skills */}
-          <div className="mt-8">
-            <h3 className="text-xl font-semibold text-gray-200">
-              {`Technologies I've Worked With`}
-            </h3>
-            <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-              <li className="text-gray-300">JavaScript</li>
-              <li className="text-gray-300">ReactJS</li>
-              <li className="text-gray-300">Node.js</li>
-              <li className="text-gray-300">MongoDB</li>
-              <li className="text-gray-300">Tailwind CSS</li>
-              <li className="text-gray-300">Express.js</li>
-              <li className="text-gray-300">Git</li>
-            </ul>
-          </div>
-
-          {/* Add Hands-On Projects */}
+          {/* Add Hands-On Projects
           <div className="mt-8">
             <h3 className="text-xl font-semibold text-gray-200">
               Notable Projects
@@ -75,7 +59,7 @@ const About = ({ id }: { id: string }) => {
                 users can connect with other students made with React and NodeJs
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Stats Content */}
@@ -83,37 +67,66 @@ const About = ({ id }: { id: string }) => {
           data-aos="zoom-in"
           data-aos-delay="150"
           data-aos-anchor-placement="top-center"
-          className="grid grid-cols-2 gap-16 items-center lg:mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto"
         >
-          <div>
+          {/* Experience Stat */}
+          <div className="flex flex-col items-center bg-[#111418] p-6 rounded-md shadow-md hover:shadow-lg transition-shadow">
             <Image
               src="/images/experience.png"
-              alt="about"
+              alt="Years of Experience"
               width={80}
               height={80}
-              className="mx-auto"
+              className="rounded-md"
             />
-            <p className="mt-3 font-bold text-xl text-white text-center">
+            <p className="mt-4 font-bold text-2xl text-white text-center">
               {aboutInfo.experience}
             </p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">
+            <p className="mt-2 text-lg text-gray-400 text-center">
               Years Experience
             </p>
           </div>
-          <div>
+
+          {/* Completed Projects Stat */}
+          <div className="flex flex-col items-center bg-[#111418] p-6 rounded-md shadow-md hover:shadow-lg transition-shadow">
             <Image
               src="/images/completed.png"
-              alt="about"
+              alt="Completed Projects"
               width={80}
               height={80}
-              className="mx-auto"
+              className="rounded-md"
             />
-            <p className="mt-3 font-bold text-xl text-white text-center">
+            <p className="mt-4 font-bold text-2xl text-white text-center">
               {aboutInfo.project}
             </p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">
+            <p className="mt-2 text-lg text-gray-400 text-center">
               Completed Projects
             </p>
+          </div>
+
+          {/* Technologies Section */}
+          <div className="col-span-2 mt-8">
+            <h3 className="text-xl font-semibold text-gray-200 mb-4 text-center sm:text-left">
+              {` Technologies I've Worked With`}
+            </h3>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-gray-300">
+              {[
+                "JavaScript",
+                "ReactJS",
+                "Node.js",
+                "MongoDB",
+                "Tailwind CSS",
+                "Express.js",
+                "Git",
+                "HTML & CSS",
+              ].map((tech, index) => (
+                <li
+                  key={index}
+                  className="text-sm sm:text-base md:text-lg font-medium flex items-center justify-center sm:justify-start"
+                >
+                  {tech}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

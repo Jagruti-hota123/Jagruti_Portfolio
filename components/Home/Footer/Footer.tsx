@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -13,16 +13,27 @@ const Footer = () => {
           className="mx-auto"
         />
       </div>
-      <div className="flex items-center flex-wrap justify-center space-x-10 space-y-4 text-white font-bold">
-        <div>Home</div>
-        <div>Services</div>
-        <div>Project</div>
-        <div>Reviews</div>
-        <div>Contact</div>
+      <div className="flex items-center flex-wrap justify-center gap-4 text-white font-bold">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>
+        <Link href="#services" className="hover:underline">
+          Services
+        </Link>
+        <Link href="#projects" className="hover:underline">
+          Projects
+        </Link>
+        <Link href="#education" className="hover:underline">
+          Edu Info
+        </Link>
+        <Link href="#contact" className="hover:underline">
+          Contact
+        </Link>
       </div>
+
       <p className="text-white text-center mt-5 text-opacity-60">
         {" "}
-        © 2024 All rights reserved by Jagruti Hota
+        © 2025 All rights reserved by Jagruti Hota
       </p>
     </div>
   );
