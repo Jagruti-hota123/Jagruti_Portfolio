@@ -118,6 +118,9 @@ const About = ({ id }: { id: string }) => {
                 "Express.js",
                 "Git",
                 "HTML & CSS",
+                "TypeScript",
+                "RESTful APIs",
+                "Fastify"
               ].map((tech, index) => (
                 <li
                   key={index}

@@ -2,24 +2,24 @@ export const BaseInfo = {
   name: "Jagruti",
   position: "Full Stack Web Developer",
   description:
-    "Hi! I'm a passionate Full Stack Developer with a knack for building dynamic and responsive web applications. I specialize in creating seamless user experiences by bridging the gap between robust back-end systems and intuitive front-end designs. With expertise in technologies like JavaScript, React, Node.js, Express.js, and MongoDB, I enjoy turning ideas into scalable and efficient solutions. Whether it's crafting APIs, managing databases, or designing interfaces, I thrive on solving complex problems and delivering impactful results.",
+    "Hi! I'm a passionate Full Stack Developer with 1.7 years of experience with a knack for building dynamic and responsive web applications. I specialize in creating seamless user experiences by bridging the gap between robust back-end systems and intuitive front-end designs. With expertise in technologies like JavaScript, React, Node.js, Express.js, and MongoDB, I enjoy turning ideas into scalable and efficient solutions. Whether it's crafting APIs, managing databases, or designing interfaces, I thrive on solving complex problems and delivering impactful results.",
   profilePic: "/images/hero.png",
 };
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "As a web developer with one year of hands-on experience, I transform ideas into interactive, user-friendly websites. Specializing in JavaScript, ReactJS, and CSS, I focus on delivering tailored solutions that enhance online presence and engage users effectively.",
+    "As a web developer with 1.7 years of hands-on experience, I transform ideas into interactive, user-friendly websites. Specializing in JavaScript, ReactJS, and CSS, I focus on delivering tailored solutions that enhance online presence and engage users effectively.",
   client: "50+",
-  experience: "1+",
-  project: "5+",
-  website: "100+",
+  experience: "1.7",
+  project: "10+",
+  website: "20+",
 };
 
 export const servicesData = [
   {
     id: 1,
-    title: " Web Applications",
+    title: "Web Applications",
     description: "Tailored web apps built with the latest technologies.",
     icon: "/images/s1.png",
   },
@@ -77,31 +77,33 @@ export const projectData = [
     image: "/images/Netflix.jpg",
     url: "https://netflix-seven-gamma.vercel.app/",
   },
+
   {
     id: 2,
-    image: "/images/zysk.jpg",
-    url: "https://zysk-virid.vercel.app/",
+    image: "/images/weathernow.jpg",
+    url: "https://weather-now-frontend-pi.vercel.app/",
   },
   {
     id: 3,
-    image: "/images/StudentTinder.jpg",
-    url: "https://student-tinder-web.vercel.app/login/",
+    image: "/images/rsu-tracker.jpg",
+    url: "https://rsu-tracker-yhn1.vercel.app/dashboard/",
   },
   {
     id: 4,
+    image: "/images/zysk.jpg",
+    url: "https://zysk-virid.vercel.app/",
+  },
+
+  {
+    id: 5,
+    image: "/images/StudentTinder.jpg",
+    url: "https://student-tinder-web.vercel.app/login",
+  },
+  {
+    id: 6,
     image: "/images/portfolio.jpg",
     url: "https://jagruti-portfolio.vercel.app/",
   },
-  // {
-  //   id: 5,
-  //   image: "/images/jiffyeats.png",
-  //   url: "https://invest-peach.vercel.app/",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/images/p6.png",
-  //   url: "https://job-chi-ruby.vercel.app/",
-  // },
   // {
   //   id: 7,
   //   image: "/images/p7.png",
@@ -119,7 +121,7 @@ export const skillsData = [
     id: 1,
     title: "React",
     image: "/images/react.svg",
-    percent: "90%",
+    percent: "100%",
   },
   {
     id: 2,
@@ -131,19 +133,19 @@ export const skillsData = [
     id: 3,
     title: "JavaScript",
     image: "/images/js.svg",
-    percent: "80%",
+    percent: "100%",
   },
   {
     id: 4,
     title: "TypeScript",
     image: "/images/ts.svg",
-    percent: "67%",
+    percent: "80%",
   },
   {
     id: 5,
     title: "HTML",
     image: "/images/html.svg",
-    percent: "80%",
+    percent: "100%",
   },
   {
     id: 6,
@@ -161,14 +163,14 @@ export const skillsData = [
     id: 8,
     title: "Tailwind CSS",
     image: "/images/tailwind.png",
-    percent: "85%",
+    percent: "90%",
   },
-  {
-    id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
-    percent: "60%",
-  },
+  // {
+  //   id: 9,
+  //   title: "Firebase",
+  //   image: "/images/firebase.svg",
+  //   percent: "60%",
+  // },
   {
     id: 10,
     title: "Express JS",
@@ -181,6 +183,18 @@ export const skillsData = [
     image: "/images/next.png",
     percent: "70%",
   },
+  {
+    id: 12,
+    title: "Git",
+    image: "/images/git.webp",
+    percent: "85%",
+  },
+  {
+    id: 13,
+    title: "Fastify",
+    image: "/images/fastify.png",
+    percent: "60%",
+  }
 ];
 
 export const educationData = [
@@ -230,7 +244,7 @@ export const blogs = [
     title: "The Importance of Website Speed Optimization",
     summary:
       "Understand how website speed impacts user experience and learn essential optimization tips.",
-    date: "July 25, 2024",
+    date: "17 Nov, 2025,",
     image: "/images/b3.jpg",
   },
 ];

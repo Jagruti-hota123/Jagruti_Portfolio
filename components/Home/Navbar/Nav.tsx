@@ -57,7 +57,7 @@ const Nav = ({ openNav }: Props) => {
           {/* Button */}
           <div className="flex items-center space-x-4">
             <button
-              onClick={() => window.open("/Jagruti_Hota_CV.pdf")}
+              onClick={() => window.open("/Jagruti.pdf")}
               className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg"
             >
               Hire Me

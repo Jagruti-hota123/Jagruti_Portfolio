@@ -37,7 +37,7 @@ const Hero = ({ id }: { id: string }) => {
               {BaseInfo.description}
             </p>
             {/* Button */}
-            <Link target="_blank" href="Jagruti_updated_resume.pdf">
+            <Link target="_blank" href="Jagruti.pdf">
               <div
                 data-aos="zoom-in"
                 data-aos-delays="300"
